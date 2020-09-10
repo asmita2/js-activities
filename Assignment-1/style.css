@@ -1,0 +1,32 @@
+input[type=text] {
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 15px;
+	width: 100%;
+	border: none;
+}
+.searchbox {
+	position: relative;
+  display: inline-block;
+	width: 200px;
+	padding: 9px 10px 9px 32px;
+	margin: 35px;
+	transition: all .5s;
+	background: #0000 url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	border-radius: 10em;
+}
+.searchbox.search-in-focus {
+	width: 400px;
+	position: relative;
+}
+.cleartext{
+  display: none;
+  position: absolute;
+  top: 14px;
+  left: 24px;
+  padding: 0 8px;
+  font-style: normal;
+  font-size: 1.2em;
+  user-select: none;
+  cursor: pointer;
+}
